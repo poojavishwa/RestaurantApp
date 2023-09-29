@@ -6,21 +6,21 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "watch-test":"jest --watchAll"
+    "watch-test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GurudattKumar8757/React_Learning.git"
+    "url": "git+https://github.com/poojavishwa/RestaurantApp.git"
   },
   "keywords": [
     "react"
   ],
-  "author": "Gurudatt Kumar",
+  "author": "Pooja Vishwakarma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GurudattKumar8757/React_Learning/issues"
+    "url": "https://github.com/poojavishwa/RestaurantApp/issues"
   },
-  "homepage": "https://github.com/GurudattKumar8757/React_Learning#readme",
+  "homepage": "https://github.com/poojavishwa/RestaurantApp#readme",
   "devDependencies": {
     "@babel/core": "^7.22.20",
     "@babel/preset-env": "^7.22.20",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
+    "firebase": "^10.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.2",

@@ -14,7 +14,7 @@ class UserClass extends React.Component {
 
   async componentDidMount() {
     // console.log("Child Component did Mount");
-    const data = await fetch("https://api.github.com/users/GurudattKumar8757");
+    const data = await fetch("https://api.github.com/users/poojavishwa");
     const json = await data.json();
 
     this.setState({
@@ -41,7 +41,7 @@ class UserClass extends React.Component {
         <img src={avatar_url} />
         <h2>Name: {name}</h2>
         <h3>Position: {bio}</h3>
-        <h4>Contact: {"@gurudatt8757"}</h4>
+        <h4>Contact: {"@poojaVishwakarma2598"}</h4>
       </div>
     );
   }
